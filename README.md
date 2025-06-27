@@ -21,11 +21,11 @@ O código é estruturado para ser fácil de entender e adaptar, sendo uma ótima
   - Aprovado (média >= 7)  
   - Recuperação (média >= 5 e < 7)  
   - Reprovado (média < 5)  
-
+  
+```bash
 ▶️ **Como executar**
 
 1. Clone este repositório:  
-```bash
 git clone https://github.com/Willrdev/calculadora_media_escolar
 
 2. Navegue até a pasta e execute com Python 3:
