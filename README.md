@@ -26,7 +26,7 @@ O código é estruturado para ser fácil de entender e adaptar, sendo uma ótima
 
 1. Clone este repositório:  
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Willrdev/calculadora_media_escolar
 
 2. Navegue até a pasta e execute com Python 3:
 python media_escolar.py
