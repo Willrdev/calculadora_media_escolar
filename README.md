@@ -40,7 +40,7 @@ Qual seria a nota 3? 8.0
 Willian, sua média foi 7.17
 Aprovado
 
-## Resultado
+## 🔗 Resultado do Projeto
 <p align="center">
   <img src="./assets/tela_calculadora_media_resultado.png" alt="Resultado da Média Escolar" width="700">
 </p>
