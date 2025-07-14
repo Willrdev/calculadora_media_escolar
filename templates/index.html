@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Escolar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v={{ random() }}">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Cálculo da Média Escolar</h1>
+            <form action="/calcular_media" method="POST">
+                <input type="text" name="nome" placeholder="Nome do Aluno" required>
+                <input type="number" step="0.01" name="nota1" placeholder="Nota 1" required>
+                <input type="number" step="0.01" name="nota2" placeholder="Nota 2" required>
+                <input type="number" step="0.01" name="nota3" placeholder="Nota 3" required>
+                <button type="submit">Calcular Média</button>
+            </form>
+        </div>
+
+        {% if nome %}
+        <div class="resultado-container">
+            <h2>Resultado:</h2>
+            <p><strong>{{ nome }}</strong>, sua média foi <strong>{{ media|round(2) }}</strong></p>
+            <p class="{{ classe_mensagem }}">{{ mensagem }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
