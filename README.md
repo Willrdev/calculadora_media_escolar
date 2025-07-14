@@ -20,17 +20,17 @@ Este é um projeto simples desenvolvido em Python que permite ao usuário inseri
   - Média < 5 → Reprovado
 
 ---
-```bash
+
 ## ▶️ Como executar o projeto
 
-1. Clone este repositório:
+## 1. Clone este repositório:
 git clone https://github.com/Willrdev/calculadora_media_escolar.git
 
 cd calculadora_media_escolar
 
 python media_escolar.py
 
-💡 Exemplo de uso
+## 💡 Exemplo de uso
 
 Qual o seu nome? Willian
 Qual seria a nota 1? 6.5
@@ -40,7 +40,12 @@ Qual seria a nota 3? 8.0
 Willian, sua média foi 7.17
 Aprovado
 
+## Resultado
+<p align="center">
+  <img src="./assets/tela_calculadora_media_resultado.png" alt="Resultado da Média Escolar" width="700">
+</p>
 
-🧑‍💻 Autor
+
+## 🧑‍💻 Autor
 Feito com dedicação por Willian
 🔗 github.com/Willrdev
